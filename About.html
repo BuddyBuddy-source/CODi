@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        .card:hover{
+            transition: all 0.5s;
+            transform: scale(1.1);
+        }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <div class="container text-center mt-2 bg-secondary text-white" >
+        <h1>CODi - Programming for All</h1>
+        <p>CODi is a Online platform , <br> That Provide good knowledge about Programming </p>
+
+       <form class="d-flex m-2" role="search">
+        <button class="btn btn-success me-2"><a class="nav-link active" href="index.html">Home</a></button>
+        <input class="form-control sm-5" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light mx-2" type="submit">Search</button>
+        <button class="btn btn-primary text-light mx-2" data-bs-toggle="modal" data-bs-target="#LoginModal" type="button">Login</button>
+        <button class="btn btn-outline-warning me-2"><a class="nav-link active" href="Contact.html">Contact</a></button>
+       
+      </form>
+        </div>
+    
+
+     <div class="container-fluid d-flex mt-5" style="justify-content: space-evenly;">
+    <div class="card" style="width: 18rem;">
+    <img src="Product.avif" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">History of CODi</h5>
+        <p class="card-text">CODi was built in <abbr title="1998">1998</abbr>., <br> it was a famous website for Coders</p>
+        <a href="#" class="btn btn-primary">See more...</a>
+    </div>
+
+    </div>
+    <div class="card" style="width: 18rem;">
+    <img src="members.avif" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">CODi Members</h5>
+        <p class="card-text"><strong>Good Communication</strong> All Faculty Members are working collaboratively</p>
+        <a href="#" class="btn btn-primary">See members..</a>
+    </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+    <img src="ranking.avif" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Ranking</h5>
+        <p class="card-text">CODi rank 100 position in last 2 years</p>
+        <a href="#" class="btn btn-primary">See Rank...</a>
+    </div>
+    </div>
+    </div>   
+
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="LoginModalLabel">Login to CODi</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
